@@ -87,7 +87,7 @@ class LocationService : Service() {
 
         val pendingIntent: PendingIntent =
             Intent(this, MapsActivity::class.java).let { notificationIntent ->
-                PendingIntent.getActivity(this, 0, notificationIntent, 0)
+                PendingIntent.getActivity(this, 0, notificationIntent, PendingIntent.FLAG_IMMUTABLE)
             }
 
         val notificationBuilder = Notification.Builder(this, "PERSISTENT")
