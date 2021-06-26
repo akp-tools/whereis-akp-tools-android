@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Where Is AKP?</string>
+    <string name="title_activity_maps">Where Is AKP?</string>
+    <string name="location_rationale">We need your location so that we can track your every move.</string>
+    <string name="notification_title">AKP Tracker</string>
+    <string name="notification_message">Location: </string>
+    <string name="channel_name">Persistent</string>
+    <string name="channel_description">Persistent notification from service</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "942522057252",
+    "firebase_url": "https://whereis-akp-tools-d2d6a.firebaseio.com",
+    "project_id": "whereis-akp-tools-d2d6a",
+    "storage_bucket": "whereis-akp-tools-d2d6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942522057252:android:b7f1424700422490eaceb1",
+        "android_client_info": {
+          "package_name": "tools.akp.whereis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942522057252-i7skhvhvio5iobk227v34p4g4933sng6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tools.akp.whereis",
+            "certificate_hash": "a32288ecc5e0a6a0df10cd8a756dd5aff27aca89"
+          }
+        },
+        {
+          "client_id": "942522057252-hbd6vk7j84v19ac22c1d3lhter42ho74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbKoImig_Eortx7rAXqu4VaedbHsAfyJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942522057252-hbd6vk7j84v19ac22c1d3lhter42ho74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
