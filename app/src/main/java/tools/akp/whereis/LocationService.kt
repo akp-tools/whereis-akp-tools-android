@@ -23,6 +23,7 @@ import java.util.*
 
 class LocationService : Service() {
     private val TAG: String = "LocationService"
+    private val NOTIFICATION_ID: Int = 42
 
     private lateinit var notification: Notification
 
@@ -97,7 +98,7 @@ class LocationService : Service() {
             .setContentIntent(pendingIntent)
             .build()
 
-        startForeground(42, notification)
+        startForeground(NOTIFICATION_ID, notification)
 
         val locationRef = database.getReference("location")
 
@@ -127,7 +128,7 @@ class LocationService : Service() {
         with(NotificationManagerCompat.from(this)) {
             Log.i(TAG, "updating notification")
             // notificationId is a unique int for each notification that you must define
-            notify(42, notificationBuilder.build())
+            notify(NOTIFICATION_ID, notificationBuilder.build())
         }
     }
 
